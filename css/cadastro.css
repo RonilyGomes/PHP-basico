@@ -1,0 +1,96 @@
+@CHARSET "UTF-8";
+/*
+*================= reseta todo css =================
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font: 90% Verdana, Arial, Helvetica, sans-serif;
+}
+body{
+	background: rgba(245,245,245,.5);
+}
+
+.container {
+	width: 500px;
+	margin: 80px auto;
+	min-width: 500px;
+	border: 1px solid #606060;
+	border-radius: 5px;
+	padding: 15px;
+	background-color: #fff;
+}
+
+.msg{
+	width:95%;
+	padding:3px;
+	margin:10px auto;
+	text-align:center;
+	border-radius:6px;
+}
+.msg .p{
+	color: #fff;
+	font-size: 110%;
+	text-shadow: 0 1px 1px #606060;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+h1 {
+	margin: 30px;
+	text-align: center;
+}
+
+.input, .botao {
+	width: 250px;
+	border: 1px solid #cecece;
+	border-radius: 5px;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 5px;
+	display: block;
+	padding-left: 10px;
+}
+.label-radio{
+	width: 112px;
+	display: inline-flex;
+	line-height: 30px;
+	padding-left: 8px;
+}
+
+.botao {
+	margin: 20px auto 10px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 150%;
+	padding-left: 0;
+}
+
+.botao:hover {
+	background-color: #cecece;
+	cursor: pointer;
+}
+
+.link {
+	text-decoration: none;
+	padding: 10px;
+	background-color: #606060;
+	border-radius: 5px;
+	color: #fff;
+	position: relative;
+	top: -15px;
+	left: 86%;
+}
+
+.label {
+	width: 180px;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	float: left;
+	margin-left: 25px;
+}
+

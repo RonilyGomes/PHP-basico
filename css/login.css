@@ -1,0 +1,91 @@
+@CHARSET "UTF-8";
+/*
+*================= reseta todo css =================
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font: 90% Verdana, Arial, Helvetica, sans-serif;
+}
+body{
+	background: rgba(245,245,245,.5);
+}
+.container {
+	width: 420px;
+	min-width: 420px;
+	margin: 150px auto 40px;
+	padding: 20px;
+	border: 1px solid #606060;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.msg{
+	width:95%;
+	padding:3px;
+	margin:10px auto;
+	text-align:center;
+	border-radius:6px;
+}
+.msg .p{
+	color: #fff;
+	font-size: 110%;
+	text-shadow: 0 1px 1px #606060;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+h1 {
+	margin: 30px;
+	text-align: center;
+}
+
+.input, .botao {
+	width: 275px;
+	border: 1px solid #cecece;
+	border-radius: 5px;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 5px;
+	display: block;
+	padding-left: 10px;
+}
+
+.botao {
+	width: 365px;
+	margin: 20px auto 20px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 150%;
+	padding-left: 0;
+}
+
+.botao:hover {
+	background-color: #cecece;
+	cursor: pointer;
+}
+
+.link {
+	text-decoration: none;
+	padding: 10px;
+	background-color: #606060;
+	border-radius: 5px;
+	color: #fff;
+	position: relative;
+	top: 0;
+	left: 75%;
+	display: inline-flex;
+}
+
+label {
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	float: left;
+	margin-left: 25px;
+}
+
